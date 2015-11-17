@@ -53,13 +53,13 @@ require(
         //Styled the start button to be star-shaped and filled it with color
         var startButton = paper.star(2*pWidth/3,pHeight/2,75).attr({'fill':'gold', 'stroke-width':0});
         //Created a text for the startbutton
-        var startText = paper.text(2*pWidth/3, pHeight/2-7, 'START');
+        var startText = paper.text(2*pWidth/3, pHeight/2-7, 'Start');
 
         //Styled the text of the startButton
         startText.attr({
             stroke: "black",
             "font-family": "Purple purse",
-            "font-size": 23,
+            "font-size": 25,
             "stroke-width": 1
         });
 
@@ -108,13 +108,13 @@ require(
         //Created a continue button similar to the startButton
         var tryButton = paper.star(pWidth/2,pHeight/2,75).attr({'fill':'#FF9900', 'stroke-width':0});
         //Added text to the contButton
-        var tryText = paper.text(pWidth/2, pHeight/2-12, 'Try Again?');
+        var tryText = paper.text(pWidth/2, pHeight/2-15, 'Try Again?');
 
         //Styled the 'Try Again?' text
         tryText.attr({
             stroke: "black",
             "font-family": "Purple purse",
-            "font-size": 21
+            "font-size": 20
         });
 
         //Prevents the text from getting highlighted when it is clicked
