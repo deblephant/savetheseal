@@ -58,7 +58,7 @@ require(
         //Styled the text of the startButton
         startText.attr({
             stroke: "black",
-            "font-family": "zebrawood std",
+            "font-family": "Purple purse",
             "font-size": 23,
             "stroke-width": 1
         });
@@ -67,20 +67,20 @@ require(
         var instructButton = paper.star(pWidth/3,pHeight/2,75).attr({'fill':'#FF3333', 'stroke-width':0});
         var instructText = paper.text(pWidth/3,pHeight/2, 'How to\nplay').attr({
             stroke: "black", 
-            "font-family": "zebrawood std",
+            "font-family": "Purple purse",
             "font-size":23,
             "stroke-width": 0.8
         });
 
         //Instructions for the game
         var instructions = paper.text(270,190, "Drag Sally around\nin order to\navoid the balls.").attr({
-            "font-family":"Museo Sans Condensed",
+            "font-family":"Roboto Slab",
             "font-size":17
         });
 
         //OK button to return to main menu after reading instructions
         var okButton = paper.rect(249,235,30,25).attr({'fill':'url(http://www.emctiles.co.uk/images/product_image/EMC01479.jpg)'})
-        var okText = paper.text(265,245, "Ok!").attr({"font-family":'Museo Sans Condensed', "font-size":15})
+        var okText = paper.text(265,245, "Ok!").attr({"font-family":'Roboto Slab', "font-size":15})
 
         //Instructions and OK button are hidden orginally
         instructions.hide();
@@ -113,7 +113,7 @@ require(
         //Styled the 'Try Again?' text
         tryText.attr({
             stroke: "black",
-            "font-family": "zebrawood std",
+            "font-family": "Purple purse",
             "font-size": 21
         });
 
