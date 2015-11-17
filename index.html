@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"> </script>
+        <script src="https://use.typekit.net/yeh5rhy.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        
+        <title>Save The Seal</title>
+    </head>
+
+  <body>
+        <!-- Gave the game a name and styled the title -->
+         <h3> <font face="zebrawood std"> <font size="30"> Save The Seal</font>      
+        </h3> 
+         <!--Inserted instructions for the game and styled it -->
+         <div id="instructions"> <p> <font face="Museo Sans Condensed"> Sally the Seal only has one more chance before the circus decides to fire her. </p>
+            <p> Help her to balance her ball by avoiding the other balls so that she can keep her job! </font></p> </div>
+
+        <div id="game">
+            <!-- Div for the scoreboard -->
+            <div id ="scoreboard"> </div>
+            <div id="SVGcanvas" > </div>
+            
+        </div>
+    </body>
+</html>
+

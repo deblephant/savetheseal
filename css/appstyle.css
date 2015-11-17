@@ -1,0 +1,81 @@
+html, body
+{
+  background-color:black;
+  height: 98%;
+  width: 98%;
+}
+
+
+h3 {;
+  -webkit-text-stroke-color: #CCFFFF;
+  user-select: none;
+  text-align: center;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+   -o-user-select: none;
+    user-select: none;  
+}
+
+#instructions {
+  color:white;
+  height: 15%;
+  user-select: none;
+  text-align: center;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+   -o-user-select: none;
+    user-select: none;  
+}
+
+
+#SVGcanvas {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+#scoreboard{
+  background: url(http://www.hillwoodproducts.com/wp-content/uploads/2015/03/wood1.jpg);
+  width: 800px;
+  height: 25px;
+  margin: auto;
+  text-align: center;
+  font-size: 22
+
+}
+
+/* Prevents the scoreboard from getting highlighted when the seal is moved */
+#scoreboard{
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+   -o-user-select: none;
+    user-select: none;  
+
+}
+
+#donthighlight {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
