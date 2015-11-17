@@ -65,7 +65,7 @@ require(
 
         //Created and style a instruction button for players to click when they want to read how to play the game
         var instructButton = paper.star(pWidth/3,pHeight/2,75).attr({'fill':'#FF3333', 'stroke-width':0});
-        var instructText = paper.text(pWidth/3,pHeight/2, 'How to\nplay').attr({
+        var instructText = paper.text(pWidth/3,pHeight/2+3, 'How to\nplay').attr({
             stroke: "black", 
             "font-family": "Purple purse",
             "font-size":23,
@@ -165,7 +165,6 @@ require(
             tryButton.hide();
             tryText.hide();
             startRect.hide();
-            seal99.hide();
 
             //Created the sally the seal character
             //Created a circle for easy reference for mouse events
