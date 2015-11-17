@@ -20,7 +20,7 @@ require(
 
         // Create a nice background of a circus setting
         var bgRect = paper.rect(0,0,pWidth, pHeight);
-        bgRect.attr({"fill": "url(http://vignette3.wikia.nocookie.net/disney/images/b/bb/Circus_(Art).png/revision/latest?cb=20130602152329)"});
+        bgRect.attr({"fill": "url(http://vignette3.wikia.nocookie.net/disney/images/b/bb/Circus_(Art).png)"});
 
         //Created a translucent cover for the backround at the starting menu
         var startRect = paper.rect(0,0,pWidth, pHeight).attr({
