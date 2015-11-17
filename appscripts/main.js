@@ -59,7 +59,7 @@ require(
         startText.attr({
             stroke: "black",
             "font-family": "Purple purse",
-            "font-size": 25,
+            "font-size": 26,
             "stroke-width": 1
         });
 
@@ -169,7 +169,7 @@ require(
             //Created the sally the seal character
             //Created a circle for easy reference for mouse events
             var seal = paper.circle(pWidth/2,pHeight/2,50).attr({
-                'fill': 'url(http://www.heathersanimations.com/animals/seal96.gif)',
+                'fill': 'url(seal.gif)',
                 'stroke': 'none'
             });
 
